@@ -20,4 +20,22 @@ public class Train {
 
     @Column(name = "purchase_date")
     private LocalDate purchaseDate;
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public TrainType getTrainType() {
+        return trainType;
+    }
+
+    public LocalDate getPurchaseDate() {
+        return purchaseDate;
+    }
+
+
 }
